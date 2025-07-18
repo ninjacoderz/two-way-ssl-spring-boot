@@ -27,3 +27,4 @@ Download nt-gateway and nt-ms projects in to your STS or Eclipse workspace.
 1018  keytool -import -alias nt-ms -file nt-ms.crt -keystore nt-gateway.jks
 
 ### Password
+changeit
