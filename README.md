@@ -37,3 +37,8 @@ torepass changeit -srcalias browser -destalias browser -srckeypass changeit -des
 
 ### Password
 changeit
+
+
+## Reference: 
+https://techexpertise.medium.com/exploring-key-stores-and-public-certificates-jks-723eb6b32a21
+https://medium.com/@niral22/2-way-ssl-with-spring-boot-microservices-2c97c974e83
