@@ -30,7 +30,7 @@ public class NtGatewayController {
 		try {
 			String msEndpoint = env.getProperty("endpoint.ms-service");
 			System.out.println("MS Endpoint name : [" + msEndpoint + "]");
-			
+
 			return restTemplate.getForObject(new URI(msEndpoint), String.class);
 		} catch (Exception ex) {
 			ex.printStackTrace();

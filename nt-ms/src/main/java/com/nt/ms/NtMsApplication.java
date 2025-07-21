@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class NtMsApplication {
 
 	public static void main(String[] args) {
+		System.setProperty("javax.net.debug", "ssl:handshake");
 		SpringApplication.run(NtMsApplication.class, args);
 	}
 
